@@ -1,0 +1,35 @@
+/* html {
+    0;
+} */
+
+
+.bg-image {
+    background-image: url('assets/images/background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.swiper {
+    width: 100%;
+    padding: 20px 0;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+.card-img-top {
+    width: 100%; /* Agar gambar memenuhi lebar card */
+    height: 300px; /* Tetapkan tinggi gambar */
+    object-fit: cover; /* Memastikan gambar tetap proporsional tanpa distorsi */
+    border-radius: 8px; /* Opsional: memberikan sudut membulat */
+}
